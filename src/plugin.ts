@@ -295,6 +295,7 @@ export function dtsPlugin(options: PluginOptions = {}): import('vite').Plugin {
 
           let index = 1
 
+          aliases = []
           aliases.push({
             find,
             replacement: ensureAbsolute(
